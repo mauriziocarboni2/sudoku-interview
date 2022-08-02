@@ -1,4 +1,4 @@
-type CellValue = '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '.'
+export type CellValue = '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '.'
 interface CacheMap {
     row: Map<CellValue, boolean>[];
     col: Map<CellValue, boolean>[];

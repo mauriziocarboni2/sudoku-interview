@@ -1,8 +1,8 @@
-import {solveSudoku} from "./solution";
+import {CellValue, solveSudoku} from "./solution";
 
 describe('Test Sudoku', () => {
     it('Should provide a valid solution ( simple case )', () => {
-        const input = [
+        const input: CellValue[][] = [
             ["5","3",".",".","7",".",".",".","."],
             ["6",".",".","1","9","5",".",".","."],
             [".","9","8",".",".",".",".","6","."],
@@ -29,7 +29,7 @@ describe('Test Sudoku', () => {
     })
 
     it('Should provide a valid solution ( harder case )', () => {
-        const input = [
+        const input: CellValue[][] = [
             [".",".","9","7","4","8",".",".","."],
             ["7",".",".",".",".",".",".",".","."],
             [".","2",".","1",".","9",".",".","."],
