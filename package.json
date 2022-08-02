@@ -1,0 +1,27 @@
+{
+  "name": "sudoku-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/maurizio.carboni2/sudoku-interview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/maurizio.carboni2/sudoku-interview/issues"
+  },
+  "homepage": "https://gitlab.com/maurizio.carboni2/sudoku-interview#readme",
+  "devDependencies": {
+    "@types/jest": "28.1.6",
+    "jest": "28.1.3",
+    "ts-jest": "28.0.7",
+    "ts-node": "10.9.1",
+    "typescript": "4.7.4"
+  }
+}
