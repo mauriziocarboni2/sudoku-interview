@@ -26,9 +26,37 @@ The only valid solution for the sudoku combination above is:
 We really like Sudoku and we wanted to write a script that solves it for us, we started writing it, but we got stuck and
 we don't know how to complete.
 
-In this test you will try to complete the missing parts of the script so it will produce a valid output.
+In this test you will try to complete the missing parts of the script, so it will produce a valid output.
 
 ## Input definition
 
 The function `solveSudoku` receives as input a matrix `9x9` the matrix is composed by one-character strings,
 valid values for these strings are: `123456789.`, the value '.' means that the box is not filled.
+
+## Setup
+
+Install the dependencies using:
+
+```bash
+yarn
+```
+
+or 
+
+```bash
+npm i
+```
+
+## Testing your solution
+
+To test if your solution works use:
+
+```bash
+yarn test
+```
+
+or 
+
+```bash
+npm test
+```
